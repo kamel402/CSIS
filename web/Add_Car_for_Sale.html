@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Add Car for Sale</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/head-logo.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/site.js">
+    </script>
+</head>
+
+<body>
+
+    <!------------ header -------------->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/kfix.png">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    
+                    <li><a href="Add_Car_for_Sale.html">Add Car for Sale</a></li>
+                    <li><a href="BrowseAllCars">Browse All Cars</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon">
+        </div>
+    </div>
+
+    <!------------ Add Car Form -------------->
+    <div class="add-car">
+        <div class="small-container">
+            <div class="wrapper">
+                <div class="title">
+                    Add Car
+                </div>
+                <form action="AddCar" method="post" class="form" onsubmit="return validateCar();">
+                    <div class="inputfield">
+                        <label>Manufacturer</label>
+                        <div class="custom_select">
+                            <select id="manufacturer" name="manufacturer">
+                                <option value="Select one manufacturer">Select one manufacturer</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Mercedes">Mercedes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="inputfield">
+                        <label>Model</label>
+                        <input type="text" class="input" id="model" name="model">
+                    </div>
+                    <div class="inputfield">
+                        <label>Type</label>
+                        <div class="custom_select">
+                            <select id="type" name="type">
+                                <option value="Select one type">Select one type</option>
+                                <option value="Normal">Normal</option>
+                                <option value="SUV">SUV</option>
+                                <option value="Van">Van</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="inputfield">
+                        <label>Year of Manufacturing</label>
+                        <input type="text" class="input" id="year" name="year">
+                    </div>
+                    <div class="inputfield">
+                        <label>Miles</label>
+                        <input type="text" class="input" id="miles" name="miles">
+                    </div>
+
+                    <div class="inputfield">
+                        <label>Price</label>
+                        <input type="text" class="input" id="price" name="price">
+                    </div>
+                    <div class="inputfield">
+                        <label>Has AC</label>
+                        <div class="check">
+                            <input type="checkbox" class="input" id="hasAC" name="hasAC" >
+                        </div>
+                    </div>
+                    <div class="inputfield">
+                        <label>Has DVD</label>
+                        <div class="check">
+                            <input type="checkbox" class="input" id="hasDVD" name="hasDVD">
+                        </div>
+                    </div>
+                    <div class="inputfield">
+                        <label>Comments</label>
+                        <textarea class="textarea" id="comments" name="comments"></textarea>
+                    </div>
+
+                    <div class="inputfield">
+                        <input type="submit" value="Add New Car" class="btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!---------------- footer  ---------------->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>KCAR</h3>
+                <p>
+                    car sale information system
+                </p>
+                <ul class="socials">
+                    <li><a href="#"><img src="images/facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="images/twitter-sign.svg" alt=""></a></li>
+                    <li><a href="#"><img src="images/google-plus.svg" alt=""></a></li>
+                    <li><a href="#"><img src="images/youtube-logo.svg" alt=""></a></li>
+                    <li><a href="#"><img src="images/linkedin.svg" alt=""></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 KCAR. designed by <span>Kamel</span></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
