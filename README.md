@@ -1,9 +1,8 @@
 # CSIS
 
-### This web application was built using Java Servlet, HTML, CSS, and JS.
+### This web application is Car sale information system, and it was built using Java Servlet, HTML, CSS, and JS.
 
 ## Main functions of this web application :
-
 
 
 #### 1. Add car for sale.
